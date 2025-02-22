@@ -2,7 +2,7 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jerryfandev&show_icons=true&theme=transparent&include_all_commits=true&rank_icon=github)](https://github.com/anuraghazra/github-readme-stats)
 
-<!-- [![GitHub Streak](https://streak-stats.demolab.com?user=crazywin3&theme=transparent)](https://git.io/streak-stats) -->
+[![GitHub Streak](https://streak-stats.demolab.com?user=jerryfandev&theme=transparent)](https://git.io/streak-stats)
 
 [![My Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?lineCount=3&theme=github&hideBg=true&bg=%23FFFFFF&badge=%23EAEFFC&border=%23D8DEE4&titleColor=%230969DA&line1=html5%2CHTML%2CE34F26%3Bcss3%2CCSS%2C1572B6%3Bjavascript%2CJavaScript%2CF7DF1E%3Btypescript%2CTypeScript%2C3178C6%3B&line2=vuedotjs%2CVuejs%2C4fc08d%3Bvuetify%2CVuetify%2C1867c0%3Bnode.js%2CNode.js%2C5FA04E%3Btailwindcss%2CTailwind%2C38b2ac%3B&line3=openjdk%2CJava%2Ced8b00%3Bphp%2Cphp%2C777bb4%3Bpython%2CPython%2C1867c0%3B)](https://github.com/0l1v3rr/github-readme-tech-stack)
 
