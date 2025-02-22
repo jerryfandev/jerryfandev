@@ -12,7 +12,8 @@
 ![topson](https://steam-stat.vercel.app/api?profileName=crazywin99)
 
 <!--
-**vietthedev/vietthedev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+** Note: Name of the repository must be similar to your github username **
 
 Here are some ideas to get you started:
 
