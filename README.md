@@ -15,9 +15,6 @@
 <a href="">
   <img align="center" src="https://steam-stat.vercel.app/api?profileName=crazywin99" />
 </a>
-<a href="">
-  <img align="center" src="https://cdn2.steamgriddb.com/icon/8b1cccf5369d9db9bc92a9f1a6ec825b/32/256x256.png" />
-</a>
 
 <!--
 This is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
