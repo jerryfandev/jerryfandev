@@ -1,6 +1,6 @@
 # Hi there 👋
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jerryfandev&show_icons=true&theme=transparent&include_all_commits=true&rank_icon=github&card_width=495)](https://github.com/anuraghazra/github-readme-stats)
+![](https://github-readme-stats-gamma-flax-65.vercel.app/api?username=jerryfandev&show_icons=true&theme=transparent&include_all_commits=true&rank_icon=github&card_width=495)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=jerryfandev&theme=transparent)](https://git.io/streak-stats)
 
