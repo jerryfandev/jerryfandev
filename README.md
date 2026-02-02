@@ -2,26 +2,7 @@
 
 ![](https://github-readme-stats-gamma-flax-65.vercel.app/api?username=jerryfandev&show_icons=true&theme=transparent&include_all_commits=true&rank_icon=github&card_width=495&count_private=true&cache_seconds=1800)
 
-<div style="display: flex; justify-content: center; align-items: center;">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="
-        https://raw.githubusercontent.com/jerryfandev/jerryfandev/output/github-streak-stats-dark.svg
-      "
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="
-        https://raw.githubusercontent.com/jerryfandev/jerryfandev/output/github-streak-stats-light.svg
-      "
-    />
-    <img
-      alt="github-streak-stats"
-      src="https://raw.githubusercontent.com/jerryfandev/jerryfandev/output/github-streak-stats-dark.svg"
-    />
-  </picture>
-</div>
+[![GitHub Streak](https://streak-stats.demolab.com?user=jerryfandev&theme=transparent)](https://git.io/streak-stats)
 
 [![My Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?lineCount=3&theme=github&hideBg=true&bg=%23FFFFFF&badge=%23EAEFFC&border=%23D8DEE4&titleColor=%230969DA&line1=html5%2CHTML%2CE34F26%3Bcss3%2CCSS%2C1572B6%3Bjavascript%2CJavaScript%2CF7DF1E%3Btypescript%2CTypeScript%2C3178C6%3B&line2=vuedotjs%2CVuejs%2C4fc08d%3Bvuetify%2CVuetify%2C1867c0%3Bnode.js%2CNode.js%2C5FA04E%3Btailwindcss%2CTailwind%2C38b2ac%3B&line3=openjdk%2CJava%2Ced8b00%3Bphp%2Cphp%2C777bb4%3Bpython%2CPython%2C1867c0%3B)](https://github.com/0l1v3rr/github-readme-tech-stack)
 
