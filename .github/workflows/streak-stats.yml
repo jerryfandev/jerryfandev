@@ -13,6 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Init Bun Environment
+        run: |
+          if [ ! -f package.json ]; then echo '{"name":"stats"}' > package.json; fi
+
       - name: Generate Streak Stats (Dark)
         uses: muhammad-fiaz/github-readme-streak-stats@v1.0.0
         with:
