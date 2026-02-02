@@ -14,16 +14,15 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: GitHub Readme Streak Stats
-        uses: denvercoder1/github-readme-streak-stats@v1.5.0
+        uses: denvercoder1/github-readme-streak-stats@main
         with:
           user: jerryphandev
           theme: tokyonight
-          output: github-streak-stats.svg
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-streak-stats.svg
+          git add .
           git commit -m "Update streak stats" || exit 0
           git push
