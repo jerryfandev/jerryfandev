@@ -2,8 +2,8 @@ name: Generate Streak Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Run daily at midnight
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Chạy mỗi ngày vào lúc 00:00
+  workflow_dispatch: # Cho phép chạy thủ công
 
 jobs:
   build:
@@ -11,33 +11,22 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
 
-      - name: Init Bun Environment
+      - name: GitHub Readme Streak Stats
+        uses: denvercoder1/github-readme-streak-stats@v2
+        with:
+          # Thay bằng username của bạn
+          user: jerryphandev
+          # Bạn có thể thêm các tùy chỉnh theme ở đây
+          theme: tokyonight
+          # Tên file ảnh sẽ lưu
+          output: github-streak-stats.svg
+
+      - name: Commit and Push
         run: |
-          if [ ! -f package.json ]; then echo '{"name":"stats"}' > package.json; fi
-
-      - name: Generate Streak Stats (Dark)
-        uses: muhammad-fiaz/github-readme-streak-stats@v1.0.0
-        with:
-          USERNAME: ${{ secrets.USER_NAME || github.actor }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          THEME: tokyonight
-          OUTPUT_PATH: github-streak-stats-dark.svg
-
-      - name: Generate Streak Stats (Light)
-        uses: muhammad-fiaz/github-readme-streak-stats@v1.0.0
-        with:
-          USERNAME: ${{ secrets.USER_NAME || github.actor }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          THEME: default
-          OUTPUT_PATH: github-streak-stats-light.svg
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4.2.0
-        with:
-          target_branch: output
-          build_dir: .
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-streak-stats.svg
+          git commit -m "Update streak stats" || exit 0
+          git push
