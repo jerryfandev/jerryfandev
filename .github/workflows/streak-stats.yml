@@ -3,7 +3,7 @@ name: Generate Streak Stats
 on:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch: # Cho phép bạn bấm nút chạy thử ngay lập tức
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,13 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Streak Stats
-        uses: denvercoder1/github-readme-streak-stats@v1.5.0
+      - name: GitHub Readme Streak Stats
+        # Sử dụng @master để đảm bảo tìm thấy action.yml
+        uses: denvercoder1/github-readme-streak-stats@master
         with:
+          # PHẢI dùng github_username (không dùng user)
           github_username: jerryphandev
           theme: tokyonight
         env:
-          # Sử dụng Token bạn vừa tạo để lấy dữ liệu repo Private
+          # Dùng Secret GH_TOKEN bạn đã tạo
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Commit and Push
